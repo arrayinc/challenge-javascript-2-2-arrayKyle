@@ -1,6 +1,7 @@
-// *** YOUR ANSWER BELOW ***
-function quotient(X,Y){
-let Steve = Math.floor (X/Y);
-return Steve;
+function quotient(x,y){
+let steve = x%y;
+let answer =  x-steve;
+let answer2= answer/y;
+return answer2
 }
-quotient= (5,2)
+quotient(9,4)
